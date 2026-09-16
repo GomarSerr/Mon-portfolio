@@ -1,0 +1,73 @@
+body {
+    background-color: beige;
+    color: #CB6843;
+    font-family: monospace;
+}
+
+.accueil {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.accueil h1 {
+    font-size: 50px;
+}
+
+.accueil p {
+    font-size: 30px;
+    margin-left : 200px;
+}
+
+.projets h1 {
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline dotted;
+}
+
+.apropos h1 {
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline dotted;
+}
+
+.apropos h2,h3,h4,h5 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.apropos p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.contact h1 {
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline dotted;
+}
+
+.contact p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liens {
+    display: flex;
+    gap: 10px;
+}
